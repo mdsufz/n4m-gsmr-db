@@ -6,3 +6,6 @@ Using Prodigal (https://github.com/hyattpd/Prodigal) to annotate the genomes pro
 
 ## MAG quality check (02_checkm.sh)
 Checking metagenome-assembled genome (MAG) quality using CheckM (https://ecogenomics.github.io/CheckM/).
+
+## MAG sequence information (03_bbmap.sh)
+Collecting technical information on all MAG sequences (e.g., number of scaffolds, GC content, etc.) using the Statswrapper tool from BBmap (https://github.com/BioInfoTools/BBMap).
