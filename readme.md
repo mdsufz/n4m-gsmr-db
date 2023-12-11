@@ -24,3 +24,6 @@ Memote outputs HTML reports. This script collects the metrics into a text file.
 
 ## Taxonomic classification (08_gtdbtk.sh)
 Using GTDB-tk (https://github.com/Ecogenomics/GTDBTk) to predict the taxonomic classification of the MAGs.
+
+## Simulate metabolic model minimal media and growth on minimal media (09_minimal_media.py)
+Use COBRApy (https://github.com/opencobra/cobrapy) to simulate the minimal media using the built-in function.
