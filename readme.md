@@ -19,4 +19,7 @@ Use CarveMe (https://github.com/cdanielmachado/carveme) to create genome-scale m
 ## Metabolic reconstruction quality check (06_memote.sh)
 Use Memote (https://memote.readthedocs.io/) to check stoichiometric consistency and other quality metrics of metabolic reconstructions.
 
+## Collect Memote results (07_memote_results.sh)
+Memote outputs HTML reports. This script collects the metrics into a text file.
+
 
