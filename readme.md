@@ -15,3 +15,8 @@ Using Prokka (https://github.com/tseemann/prokka) to annotate the proteins becau
 
 ## Create genome-scale metabolic reconstructions (05_carveme.sh)
 Use CarveMe (https://github.com/cdanielmachado/carveme) to create genome-scale metabolic reconstructions of each MAG.
+
+## Metabolic reconstruction quality check (06_memote.sh)
+Use Memote (https://memote.readthedocs.io/) to check stoichiometric consistency and other quality metrics of metabolic reconstructions.
+
+
