@@ -10,6 +10,8 @@ Checking metagenome-assembled genome (MAG) quality using CheckM (https://ecogeno
 ## MAG sequence information (03_bbmap.sh)
 Collecting technical information on all MAG sequences (e.g., number of scaffolds, GC content, etc.) using the Statswrapper tool from BBmap (https://github.com/BioInfoTools/BBMap).
 
-## Second protein annotation (02_prokka.sh)
-Using Prokka (https://github.com/tseemann/prokka) to re-annotate the genomes because the Prodigal results do not annotate the genomes. Used this data to calculate the proportion of annotated proteins in each genome.
+## Protein annotation (04_prokka.sh)
+Using Prokka (https://github.com/tseemann/prokka) to annotate the proteins because the Prodigal results do not contain annotations. Used this data to calculate the proportion of annotated proteins in each genome.
 
+## Create genome-scale metabolic reconstructions (05_carveme.sh)
+Use CarveMe (https://github.com/cdanielmachado/carveme) to create genome-scale metabolic reconstructions of each MAG.
