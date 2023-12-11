@@ -22,4 +22,5 @@ Use Memote (https://memote.readthedocs.io/) to check stoichiometric consistency 
 ## Collect Memote results (07_memote_results.sh)
 Memote outputs HTML reports. This script collects the metrics into a text file.
 
-
+## Taxonomic classification (08_gtdbtk.sh)
+Using GTDB-tk (https://github.com/Ecogenomics/GTDBTk) to predict the taxonomic classification of the MAGs.
