@@ -32,3 +32,6 @@ Use COBRApy (https://github.com/opencobra/cobrapy) to simulate the minimal media
 
 ## Minimal media per model (11_minimal_media_values.R)
 Create two matrices: one containing the presence/absence of each metabolite in the minimal media of each model, and the second containing the same information but with the simulated flux values instead of the binary data.
+
+## rK-strategy analysis (12_rK_analysis.R)
+Use the data from the minimal media simulations to predict rK strategy of each model. Done by calculating an rK-index using the log value of the product of i) maximum growth rate on minimal media, ii) number of carbon-containing metabolites in the minimal media, and iii) the growth yield on minimal media (maximum growth rate/influx of carbon).
