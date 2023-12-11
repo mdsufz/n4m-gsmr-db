@@ -27,3 +27,8 @@ Using GTDB-tk (https://github.com/Ecogenomics/GTDBTk) to predict the taxonomic c
 
 ## Simulate metabolic model minimal media and growth on minimal media (09_minimal_media.py)
 Use COBRApy (https://github.com/opencobra/cobrapy) to simulate the minimal media using the built-in function.
+
+## Getting a unique list of all minimal media metabolites (10_minimal_media_components.sh)
+
+## Minimal media per model (11_minimal_media_values.R)
+Create two matrices: one containing the presence/absence of each metabolite in the minimal media of each model, and the second containing the same information but with the simulated flux values instead of the binary data.
