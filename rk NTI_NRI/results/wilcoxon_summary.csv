@@ -1,0 +1,5 @@
+"Domain","Strategy","Tax_level","N_taxa","W","p_value","median_NTI_z","median_NRI_z"
+"archaea","r","GTDB.tk_phylum",8,26,0.3125,-2.28676146949951,-2.05318846108782
+"archaea","k","GTDB.tk_phylum",2,2,1,-1.45905083092157,-1.49841204921751
+"bacteria","r","GTDB.tk_phylum",31,276,0.594814425334334,-3.3487412840279,-3.37672129836711
+"bacteria","k","GTDB.tk_phylum",17,67,0.677703857421875,-2.49732730895299,-2.03069439532592
